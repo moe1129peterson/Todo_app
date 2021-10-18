@@ -1,0 +1,30 @@
+{
+    "toDos": [
+        {
+          "id": 1,
+          "name": "Go to work",
+          "complete": false,
+          "category": "Work"
+        },
+        {
+          "id": 2,
+          "name": "Go to school",
+          "complete": false,
+          "category": "School"
+        },
+        {
+          "id": 3,
+          "name": "Go to the dentist",
+          "complete": false,
+          "category": "Health Care"
+        }, 
+        {
+          "id": 4,
+          "name": "Make a baby",
+          "complete": true,
+          "category": "Health Care"
+        }
+    ], 
+
+    "categories": ["work"]
+}

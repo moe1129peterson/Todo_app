@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Dos</title>
+</head>
+<body>
+    <ul id="todoList">
+        <!--Dynamically insert data-->
+    </ul>
+    <form onsubmit="event.preventDefault();">
+        <input type="text" id="todoName" placeholder="name"/>
+        <input type="text" id="todoCategory" placeholder="category"/>
+        <button id="saveTodo">Save</button>
+    </form>
+</body>
+<Script src="https://unpkg.com/axios/dist/axios.min.js"></Script>
+<script src="index.js" defer></script>
+</html>
